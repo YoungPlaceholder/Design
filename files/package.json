@@ -4,7 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start": "python3 -m http.server 9000"
+    "start": "python3 -m http.server 9000",
+    "deploy": "git init -b main"
   },
   "author": "Francesco Serangeli <visposer@gmail.com> <contact@francescoserangeli.live>",
   "license": "ISC"
