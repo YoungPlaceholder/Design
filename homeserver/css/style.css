@@ -1,0 +1,33 @@
+body {
+  font-family: 'Roboto', sans-serif;
+  word-wrap: break-word;
+  white-space: pre-wrap;
+}
+.title-block {
+  background-color: red;
+  height: 50px;
+  font-size: 30px;
+  text-align: center;
+  font-size: 24px;
+  padding-bottom: 60px;
+  padding-top: 60px;
+  transition: transform 0.2s ease-in-out;
+}
+.title {
+  color: black;
+}
+.title:hover {
+  transform: scale(1.05);
+}
+.header {
+  background-color: blue;
+}
+.description {
+  background-color: rgb(255, 255, 0);
+}
+.photo-container {
+  background-color: rgb(72, 255, 0);
+}
+.photo {
+  background-color: darkblue;
+}
